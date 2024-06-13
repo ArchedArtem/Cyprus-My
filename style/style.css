@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 
-*{
+* {
     font-family: 'Manrope-Medium', sans-serif;
     padding: 0;
     border: none;
@@ -10,7 +10,7 @@
     outline: none;
 }
 
-a{
+a {
     color: inherit;
 }
 
@@ -19,20 +19,20 @@ a{
     margin: 0 auto;
 }
 
-header{
+header {
     background-image: url(../img/BG.png);
     background-size: cover;
     height: 1131px;
 }
 
-header .navigation .container{
+header .navigation .container {
     display: flex;
     justify-content: space-around;
 }
 
 
 
-header .navigation .container .button{
+header .navigation .container .button {
     border-radius: 10px;
     padding: 16px 24px 16px 24px;
     height: 70px;
@@ -46,20 +46,21 @@ header .navigation .container .button{
     background-color: white;
 }
 
-header .navigation .container .button:hover{
+header .navigation .container .button:hover {
     cursor: pointer;
     height: 110px;
     box-shadow: 0 4px 8px rgb(255, 255, 255);
 }
 
-header .navigation .container .button p{
+header .navigation .container .button p {
     font-family: 'Lato', sans-serif;
     color: #F87932;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
-header .traveling .container .rombs .romb-slider, .romb{
+header .traveling .container .rombs .romb-slider,
+.romb {
     transform: rotate(45deg);
     overflow: hidden;
     border: 5px solid white;
@@ -69,13 +70,13 @@ header .traveling .container .rombs .romb-slider, .romb{
     position: relative;
 }
 
-header .traveling .container .rombs .romb  img{
+header .traveling .container .rombs .romb img {
     transform: rotate(-45deg);
     width: 150%;
     position: absolute;
 }
 
-header .traveling .container .rombs .romb-1{
+header .traveling .container .rombs .romb-1 {
     width: 233px;
     height: 233px;
     position: relative;
@@ -83,14 +84,14 @@ header .traveling .container .rombs .romb-1{
     left: 150px;
 }
 
-header .traveling .container .rombs .romb-1 img{
+header .traveling .container .rombs .romb-1 img {
     top: -170px;
     left: -100px;
     transition: 0.5s;
     transform: rotate(0);
 }
 
-header .traveling .container .rombs .romb-2{
+header .traveling .container .rombs .romb-2 {
     width: 133px;
     height: 133px;
     position: relative;
@@ -98,7 +99,7 @@ header .traveling .container .rombs .romb-2{
     left: 290px;
 }
 
-header .traveling .container .rombs .romb-2 img{
+header .traveling .container .rombs .romb-2 img {
     width: 200%;
     top: -40px;
     left: -70px;
@@ -106,7 +107,7 @@ header .traveling .container .rombs .romb-2 img{
     transform: rotate(0);
 }
 
-header .traveling .container .rombs .romb-3{
+header .traveling .container .rombs .romb-3 {
     width: 268px;
     height: 268px;
     position: relative;
@@ -114,7 +115,7 @@ header .traveling .container .rombs .romb-3{
     left: 100px;
 }
 
-header .traveling .container .rombs .romb-3 img{
+header .traveling .container .rombs .romb-3 img {
     width: 205%;
     top: -90px;
     left: -100px;
@@ -122,7 +123,7 @@ header .traveling .container .rombs .romb-3 img{
     transform: rotate(0);
 }
 
-header .traveling .container .rombs .romb-4{
+header .traveling .container .rombs .romb-4 {
     width: 156px;
     height: 156px;
     position: relative;
@@ -130,13 +131,13 @@ header .traveling .container .rombs .romb-4{
     left: -50px;
 }
 
-header .traveling .container .rombs .romb-4 img{
+header .traveling .container .rombs .romb-4 img {
     top: -50px;
     transition: 0.5s;
     transform: rotate(0);
 }
 
-header .traveling .container .rombs .romb-5{
+header .traveling .container .rombs .romb-5 {
     width: 225px;
     height: 225px;
     position: relative;
@@ -144,14 +145,14 @@ header .traveling .container .rombs .romb-5{
     left: -300px;
 }
 
-header .traveling .container .rombs .romb-5 img{
+header .traveling .container .rombs .romb-5 img {
     top: -130px;
     left: -50px;
     transition: 0.5s;
     transform: rotate(0);
 }
 
-header .traveling .container .rombs .romb-slider{
+header .traveling .container .rombs .romb-slider {
     overflow: hidden;
     border: 5px solid white;
     border-radius: 10px;
@@ -164,16 +165,17 @@ header .traveling .container .rombs .romb-slider{
     top: 150px;
 }
 
-header .traveling .container .rombs .romb-slider .slide img:hover, header .traveling .container .rombs .romb img:hover{
+header .traveling .container .rombs .romb-slider .slide img:hover,
+header .traveling .container .rombs .romb img:hover {
     transition: 0.5s;
-    transform: scale(1.3);  
+    transform: scale(1.3);
 }
 
-header .traveling .container .rombs .romb-slider .slide img{
+header .traveling .container .rombs .romb-slider .slide img {
     transition: 0.5s;
 }
 
-header .traveling .container .rombs .romb-slider .slide{
+header .traveling .container .rombs .romb-slider .slide {
     transform: rotate(-45deg);
     width: 900px;
     top: -150px;
@@ -181,34 +183,34 @@ header .traveling .container .rombs .romb-slider .slide{
     transition: 0.5s;
 }
 
-header .traveling .container{
+header .traveling .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-header .traveling .container .text{
+header .traveling .container .text {
     font-size: 80px;
     margin-top: -700px;
 }
 
-header .traveling .container .text p{
+header .traveling .container .text p {
     color: #39BFA7;
     font-weight: bold;
 }
 
-header .traveling .container .text span{
+header .traveling .container .text span {
     color: #F87932;
 }
 
-header .traveling .container .text button span{
+header .traveling .container .text button span {
     color: white;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
 }
 
-header .traveling .container .text button{
+header .traveling .container .text button {
     background-color: #F87932;
     padding: 16px 24px 16px 24px;
     width: 213px;
@@ -216,41 +218,41 @@ header .traveling .container .text button{
     font-size: 20px;
 }
 
-main .adventure{
+main .adventure {
     margin-top: 100px;
     height: 700px;
 }
 
-main .adventure .container{
+main .adventure .container {
     display: flex;
     justify-content: space-between;
 }
 
-main .adventure .container .textt{
+main .adventure .container .textt {
     width: 40%;
 }
 
-main .adventure .container .textt .relax{
+main .adventure .container .textt .relax {
     font-size: 22px;
     font-family: 'Lato', sans-serif;
     color: #666666;
     letter-spacing: 3px;
 }
 
-main .adventure .container .textt .welcome{
+main .adventure .container .textt .welcome {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: #666666;
     letter-spacing: 3px;
 }
 
-main .adventure .container .textt .weather{
+main .adventure .container .textt .weather {
     font-family: 'Merriweather', sans-serif;
     font-size: 60px;
     margin-bottom: 30px;
 }
 
-main .adventure .container .rombss .romb-1{
+main .adventure .container .rombss .romb-1 {
     width: 330px;
     height: 330px;
     border: 20px solid white;
@@ -260,14 +262,14 @@ main .adventure .container .rombss .romb-1{
     right: -250px;
 }
 
-main .adventure .container .rombss .romb-1 img{
+main .adventure .container .rombss .romb-1 img {
     transform: rotate(-45deg);
     width: 150%;
     position: absolute;
     top: -100px;
 }
 
-main .adventure .container .rombss .romb-2{
+main .adventure .container .rombss .romb-2 {
     width: 450px;
     height: 450px;
     border: none;
@@ -277,14 +279,14 @@ main .adventure .container .rombss .romb-2{
     right: -400px;
 }
 
-main .adventure .container .rombss .romb-2 img{
+main .adventure .container .rombss .romb-2 img {
     transform: rotate(-45deg);
     position: absolute;
     width: 200%;
     top: -300px;
 }
 
-main .adventure .container .textt button{
+main .adventure .container .textt button {
     width: 213px;
     height: 62px;
     font-family: 'Lato', sans-serif;
@@ -296,20 +298,20 @@ main .adventure .container .textt button{
     margin-top: 180px;
 }
 
-main .adventure .container .rombss .doroga{
+main .adventure .container .rombss .doroga {
     position: relative;
     top: -125px;
     left: -730px;
 }
 
-main .travel{
+main .travel {
     background-image: url(../img/3\ block.png);
     margin-top: 100px;
     height: 1110px;
     background-size: cover;
 }
 
-main .travel h2{
+main .travel h2 {
     font-family: 'Merriweather', sans-serif;
     font-size: 60px;
     color: white;
@@ -318,7 +320,7 @@ main .travel h2{
 }
 
 
-main .travel p{
+main .travel p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: white;
@@ -326,7 +328,7 @@ main .travel p{
     letter-spacing: 5px;
 }
 
-main .travel .container .but{
+main .travel .container .but {
     width: 180px;
     height: 180px;
     background-color: #F87932;
@@ -340,7 +342,7 @@ main .travel .container .but{
     left: 550px;
 }
 
-main .travel .container .but .rombik{
+main .travel .container .but .rombik {
     border: 5px solid gray;
     width: 150px;
     height: 150px;
@@ -348,7 +350,7 @@ main .travel .container .but .rombik{
     border-radius: 10px;
 }
 
-main .travel .container .but .rombik .triangle{
+main .travel .container .but .rombik .triangle {
     transform: rotate(-45deg);
     border: 50px solid transparent;
     border-radius: 10px;
@@ -358,11 +360,11 @@ main .travel .container .but .rombik .triangle{
     top: -20px;
 }
 
-main .rombiks{
+main .rombiks {
     margin-top: -100px;
 }
 
-main .rombiks .container .romb{
+main .rombiks .container .romb {
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -370,12 +372,12 @@ main .rombiks .container .romb{
     background-color: white;
 }
 
-main .rombiks .container .romb p{
+main .rombiks .container .romb p {
     transform: rotate(-45deg);
     font-family: 'Lato', sans-serif;
 }
 
-main .rombiks .container .romb .travelers{
+main .rombiks .container .romb .travelers {
     text-align: center;
     font-size: 32px;
     letter-spacing: 3px;
@@ -383,7 +385,7 @@ main .rombiks .container .romb .travelers{
     margin-left: 30px;
 }
 
-main .rombiks .container .romb .rombik{
+main .rombiks .container .romb .rombik {
     margin-top: 10px;
     margin-left: 10px;
     width: 70px;
@@ -396,7 +398,7 @@ main .rombiks .container .romb .rombik{
     justify-content: center;
 }
 
-main .rombiks .container .romb .rombik p{
+main .rombiks .container .romb .rombik p {
     color: white;
     font-size: 20px;
     letter-spacing: 3px;
@@ -404,12 +406,142 @@ main .rombiks .container .romb .rombik p{
     margin-top: 10px;
 }
 
-main .rombiks .container{
+main .rombiks .container {
     display: flex;
     justify-content: space-between;
 }
 
-main .rombiks .container .romb:nth-child(3) .travelers{
+main .rombiks .container .romb:nth-child(3) .travelers {
     margin-left: 10px;
     margin-top: -10px;
+}
+
+main .blog {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+main .blog .container .text {
+    text-align: center;
+}
+
+main .blog .container .text h2 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .blog .container .text p {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .blog .container .text .nizhe {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+main .blog .container .setka .grid-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 24px;
+}
+
+main .blog .container .setka .item {
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+main .blog .container .setka .item1 {
+    grid-row: span 2;
+    width: 282px;
+    height: 588px;
+    background-image: url(../img/grid\ 1.jfif);
+    background-size: cover;
+}
+
+main .blog .container .setka .item .panel {
+    width: 100%;
+    height: 200%;
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    transform: translateY(-32%);
+    transition: 0.5s;
+}
+
+main .blog .container .setka .item .panel:hover {
+    transform: translateY(-49%);
+    transition: 0.5s;
+}
+
+main .blog .container .setka .item .panel p {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 24px;
+}
+
+main .blog .container .setka .item .panel img {
+    width: 80px;
+}
+
+main .blog .container .setka .item2 {
+    grid-row: span 1;
+    width: 282px;
+    height: 282px;
+    background-image: url(../img/grid\ 2.jfif);
+    background-size: cover;
+}
+
+main .blog .container .setka .item3 {
+    grid-row: span 1;
+    grid-column: span 2;
+    width: 610px;
+    height: 282px;
+    background-image: url(../img/grid\ 3.jfif);
+    background-size: cover;
+    background-position: 0px -90px;
+}
+
+main .blog .container .setka .item4 {
+    grid-row: span 1;
+    width: 282px;
+    height: 282px;
+    background-image: url(../img/grid\ 4.jfif);
+    background-size: cover;
+}
+
+main .blog .container .setka .item5 {
+    grid-row: span 1;
+    width: 282px;
+    height: 282px;
+    background-image: url(../img/grid\ 5.jfif);
+    background-size: cover;
+}
+
+main .blog .container .setka .item6 {
+    grid-row: span 1;
+    width: 282px;
+    height: 282px;
+    background-image: url(../img/grid\ 6.jfif);
+    background-size: cover;
+}
+
+main .blog .container .blog-button {
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 16px 24px 16px 24px;
+    width: 206px;
+    height: 62px;
+    background-color: white;
+    letter-spacing: 3px;
+    transform: translate(250%);
+    margin-top: 50px;
 }
