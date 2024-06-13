@@ -357,3 +357,59 @@ main .travel .container .but .rombik .triangle{
     left: 40px;
     top: -20px;
 }
+
+main .rombiks{
+    margin-top: -100px;
+}
+
+main .rombiks .container .romb{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 10px solid #39BFA7;
+    background-color: white;
+}
+
+main .rombiks .container .romb p{
+    transform: rotate(-45deg);
+    font-family: 'Lato', sans-serif;
+}
+
+main .rombiks .container .romb .travelers{
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+main .rombiks .container .romb .rombik{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 5px solid #2A0606;
+    background-color: #39BFA7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .rombiks .container .romb .rombik p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+main .rombiks .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .rombiks .container .romb:nth-child(3) .travelers{
+    margin-left: 10px;
+    margin-top: -10px;
+}
