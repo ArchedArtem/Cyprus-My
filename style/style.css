@@ -648,3 +648,54 @@ main .tourist .container button{
     margin-top: 70px;
     transform: translate(230%);
 }
+
+main .forma{
+    margin-top: 100px;
+}
+
+main .forma .container .text{
+    text-align: center;
+}
+
+main .forma .container .text h2{
+    font-size: 60px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+main .forma .container .text p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+main .forma .container .text img{
+    margin: 30px;
+}
+
+main .forma .container form label{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+main .forma .container form input{
+    height: 70px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+main .forma .container button{
+    background-color: #F87932;
+    padding: 16px 24px 16px 24px;
+    width: 400px;
+    height: 62px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 70px;
+    transform: translate(120%);
+}
+
+.mb-3{
+    margin-top: 30px;
+}
