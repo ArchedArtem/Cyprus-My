@@ -603,7 +603,7 @@ main .tourist .container .osnova .text-left p{
     font-size: 60px;
     font-family: 'SedgwickAve', sans-serif;
     color: #39BFA7;
-    margin-right: 200px;
+    margin-left: 160px !important;
 }
 
 main .tourist .container .osnova .text-right .tyxt{
@@ -646,4 +646,5 @@ main .tourist .container button{
     color: white;
     letter-spacing: 3px;
     margin-top: 70px;
+    transform: translate(230%);
 }
