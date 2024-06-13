@@ -49,7 +49,7 @@ header .navigation .container .button{
 header .navigation .container .button:hover{
     cursor: pointer;
     height: 110px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
 }
 
 header .navigation .container .button p{
@@ -214,6 +214,84 @@ header .traveling .container .text button{
     width: 213px;
     height: 62px;
     font-size: 20px;
-    overflow: hiddn;
 }
 
+main .adventure{
+    margin-top: 100px;
+}
+
+main .adventure .container .textt{
+    width: 40%;
+}
+
+main .adventure .container .textt .relax{
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    letter-spacing: 3px;
+}
+
+main .adventure .container .textt .welcome{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    letter-spacing: 3px;
+}
+
+main .adventure .container .textt .weather{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+main .adventure .container .rombss .romb-1{
+    width: 330px;
+    height: 330px;
+    border: 20px solid white;
+    z-index: 2;
+    position: relative;
+    top: -600px;
+    left: 700px;
+}
+
+main .adventure .container .rombss .romb-1 img{
+    transform: rotate(-45deg);
+    width: 150%;
+    position: absolute;
+    top: -100px;
+}
+
+main .adventure .container .rombss .romb-2{
+    width: 450px;
+    height: 450px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -1000px;
+    left: 900px;
+}
+
+main .adventure .container .rombss .romb-2 img{
+    transform: rotate(-45deg);
+    position: absolute;
+    width: 200%;
+    top: -300px;
+}
+
+main .adventure .container .textt button{
+    width: 213px;
+    height: 62px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 16px 24px 16px 24px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin-top: 180px;
+}
+
+main .adventure .container .textt .doroga{
+    position: absolute;
+    top: 1100px;
+    left: 150px;
+}
