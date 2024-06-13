@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face{
+    font-family: 'Merriweather';
+    src: url(../fonts/Merriweather-Black.ttf);
+}
+
+@font-face{
+    font-family: 'SedgwickAve';
+    src: url(../fonts/SedgwickAve-Regular.ttf);
+}

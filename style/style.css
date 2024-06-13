@@ -1,0 +1,52 @@
+@import url(./fonts.css);
+
+*{
+    font-family: 'Manrope-Medium', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    color: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .navigation .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+header .navigation .container .button{
+    border-radius: 10px;
+    padding: 16px 24px 16px 24px;
+    height: 70px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .navigation .container .button:hover{
+    cursor: pointer;
+    height: 110px;
+}
+
+header .navigation .container .button p{
+    font-family: 'Lato', sans-serif;
+    color: #F87932;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
