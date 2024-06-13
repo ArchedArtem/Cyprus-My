@@ -218,6 +218,12 @@ header .traveling .container .text button{
 
 main .adventure{
     margin-top: 100px;
+    height: 700px;
+}
+
+main .adventure .container{
+    display: flex;
+    justify-content: space-between;
 }
 
 main .adventure .container .textt{
@@ -250,8 +256,8 @@ main .adventure .container .rombss .romb-1{
     border: 20px solid white;
     z-index: 2;
     position: relative;
-    top: -600px;
-    left: 700px;
+    top: -500px;
+    right: -250px;
 }
 
 main .adventure .container .rombss .romb-1 img{
@@ -267,8 +273,8 @@ main .adventure .container .rombss .romb-2{
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
-    top: -1000px;
-    left: 900px;
+    top: -900px;
+    right: -400px;
 }
 
 main .adventure .container .rombss .romb-2 img{
@@ -290,8 +296,64 @@ main .adventure .container .textt button{
     margin-top: 180px;
 }
 
-main .adventure .container .textt .doroga{
-    position: absolute;
-    top: 1100px;
-    left: 150px;
+main .adventure .container .rombss .doroga{
+    position: relative;
+    top: -125px;
+    left: -730px;
+}
+
+main .travel{
+    background-image: url(../img/3\ block.png);
+    margin-top: 100px;
+    height: 1110px;
+    background-size: cover;
+}
+
+main .travel h2{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+}
+
+
+main .travel p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+main .travel .container .but{
+    width: 180px;
+    height: 180px;
+    background-color: #F87932;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: relative;
+    top: 110px;
+    left: 550px;
+}
+
+main .travel .container .but .rombik{
+    border: 5px solid gray;
+    width: 150px;
+    height: 150px;
+    background-color: #F87932;
+    border-radius: 10px;
+}
+
+main .travel .container .but .rombik .triangle{
+    transform: rotate(-45deg);
+    border: 50px solid transparent;
+    border-radius: 10px;
+    border-left: 50px solid rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+    top: -20px;
 }
