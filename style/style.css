@@ -23,6 +23,10 @@ a {
     display: none;
 }
 
+.doroga-mobile {
+    display: none;
+}
+
 
 .animation-button-orange {
     overflow: hidden;
@@ -1084,7 +1088,8 @@ footer .container .bottom .copy {
     }
 
     .container-fluid {
-        justify-content: end !important;
+        justify-content: space-between !important;
+        align-items: start;
     }
 
     .btn-close {
@@ -1099,12 +1104,213 @@ footer .container .bottom .copy {
         --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F87932'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e !important) !important;
     }
 
-    .burger a{
+    .burger a {
         font-size: 24px;
         font-family: 'Lato', sans-serif;
         text-decoration: underline;
         color: #F87932;
         letter-spacing: 5px;
+    }
+
+    .logo-mobile {
+        height: 200px;
+    }
+
+    header {
+        background-repeat: no-repeat;
+        background-position: -500px;
+    }
+
+    header .traveling .container .rombs .romb-2 {
+        display: none;
+    }
+
+    header .traveling .container .rombs .romb-slider {
+        width: 250px !important;
+        height: 250px !important;
+        left: -223px;
+        top: 538px;
+    }
+
+    header .traveling .container .rombs .romb-5 {
+        width: 150px;
+        height: 150px;
+        top: -232px;
+        left: -374px;
+    }
+
+    header .traveling .container .rombs .romb-4 {
+        top: -4px;
+        left: -524px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .traveling .container .rombs .romb-3 {
+        top: 30px;
+        left: 12px;
+        width: 170px;
+        height: 170px;
+    }
+
+    header .traveling .container .rombs .romb-1 {
+        top: 327px;
+        left: 206px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .traveling .container .text {
+        margin-top: -450px;
+    }
+
+    main .adventure .container .textt {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 130px;
+        margin-top: 50px;
+    }
+
+    main .adventure .container .textt .welcome {
+        width: 100%;
+    }
+
+    main .adventure .container .rombss .doroga {
+        display: none;
+    }
+
+    main .adventure .container .rombss .doroga-mobile {
+        display: block;
+        z-index: 2;
+        position: absolute;
+        width: 760px;
+        left: -160px;
+        top: -150px;
+    }
+
+    .welcome {
+        margin-top: 150px !important;
+    }
+
+    .adventure {
+        height: 1350px !important;
+        overflow: hidden;
+        padding-top: 150px;
+    }
+
+    main .adventure .container .textt button {
+        top: 140px;
+        left: -170px;
+    }
+
+    main .adventure .container .rombss .romb-2 {
+        top: 600px;
+        right: -450px;
+    }
+
+    main .adventure .container .rombss .romb-1 {
+        top: 650px;
+        right: 290px;
+    }
+
+    main .travel img {
+        top: 2581px;
+    }
+
+    main .travel{
+        background-image: url(../img/bg\ travel\ mobile.jfif);
+    }
+
+    main .travel .container .but{
+        display: none;
+    }
+
+    main .rombiks .container .romb:nth-child(1){
+        top: -250px;
+        left: 270px;
+    }
+
+    main .rombiks .container .romb:nth-child(2){
+        top: -130px;
+        left: -30px;
+    }
+
+    main .rombiks .container .romb:nth-child(3){
+        top: 0px;
+        left: -90px;
+    }
+
+    main .rombiks .container .romb:nth-child(4){
+        top: -130px;
+        left: -150px;
+    }
+
+    main .blog .container .setka .grid-container{
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 22% 22% 22% 22%;
+    }
+
+    main .blog .container .setka .item1{
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    main .blog .container .setka .item4{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    main .blog .container .setka .item3{
+        grid-row: 4;
+    }
+
+    main .blog .container .setka .item5{
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    main .blog .container .setka .item6{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    main .blog .container .setka .item2{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    main .blog .container .setka .grid-container{
+        gap: 30px;
+    }
+
+    main .tourist .container .osnova{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    main .tourist .container .osnova .text-left p{
+        text-align: center;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt{
+        margin-left: 0;
+    }
+
+    main .tourist .container .osnova .text-right{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt{
+        justify-content: center;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt{
+        width: 70%;
     }
 }
 
