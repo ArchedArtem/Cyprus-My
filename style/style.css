@@ -19,6 +19,86 @@ a {
     margin: 0 auto;
 }
 
+
+
+.animation-button-orange {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.animation-button-orange span {
+    z-index: 3;
+}
+
+.animation-button-orange .tre {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg) translateY(-250px) translateX(-100px);
+    transition: 0.7s;
+    z-index: 2;
+}
+
+.animation-button-orange .tre:hover {
+    transform: rotate(45deg) translateY(-250px) translateX(-560px);
+    transition: 0.8s;
+}
+
+
+.animation-button-orange .trem {
+    height: 550px;
+    width: 80px;
+    background-color: #39BFA7;
+}
+
+
+
+.animation-button-white {
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    background-color: #007bff;
+    border: none;
+    overflow: hidden;
+}
+
+.animation-button-white::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color:#F87932;
+    transition: left 0.5s;
+}
+
+.animation-button-white:hover::before{
+    left: 0;
+    color: white;
+    z-index: 1;
+}
+
+.animation-button-white span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+}
+
+.animation-button-white span:hover{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+
 header {
     background-image: url(../img/BG.png);
     background-size: cover;
@@ -536,7 +616,7 @@ main .blog .container .setka .item6 {
 main .blog .container .blog-button {
     border: 2px solid black;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding: 16px 24px 16px 24px;
     width: 206px;
     height: 62px;
@@ -546,31 +626,31 @@ main .blog .container .blog-button {
     margin-top: 50px;
 }
 
-main .tourist{
+main .tourist {
     background-image: url(../img/BG\ tourist.jfif);
     background-size: cover;
     height: 1901px;
     padding: 100px;
 }
 
-main .tourist .container{
+main .tourist .container {
     border: 10px solid white;
     padding: 50px;
 }
 
-main .tourist .container .text{
+main .tourist .container .text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main .tourist .container .text h2{
+main .tourist .container .text h2 {
     font-family: 'Merriweather', sans-serif;
     font-size: 60px;
     color: white;
 }
 
-main .tourist .container .text p{
+main .tourist .container .text p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #eeeeee;
@@ -579,64 +659,64 @@ main .tourist .container .text p{
     text-align: center;
 }
 
-main .tourist .container .text img{
+main .tourist .container .text img {
     margin: 30px;
 }
 
-main .tourist .container .osnova{
+main .tourist .container .osnova {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-main .tourist .container .osnova .text-left{
+main .tourist .container .osnova .text-left {
     width: 30%;
 }
 
-main .tourist .container .osnova .text-right{
+main .tourist .container .osnova .text-right {
     width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-main .tourist .container .osnova .text-left p{
+main .tourist .container .osnova .text-left p {
     font-size: 60px;
     font-family: 'SedgwickAve', sans-serif;
     color: #39BFA7;
     margin-left: 160px !important;
 }
 
-main .tourist .container .osnova .text-right .tyxt{
+main .tourist .container .osnova .text-right .tyxt {
     display: flex;
     align-items: center;
     margin-left: 50px;
     margin-top: 50px;
 }
 
-main .tourist .container .osnova .text-right .tyxt-1{
+main .tourist .container .osnova .text-right .tyxt-1 {
     margin-top: 0;
 }
 
-main .tourist .container .osnova .text-right .tyxt .number{
+main .tourist .container .osnova .text-right .tyxt .number {
     width: 15%;
     font-size: 80px;
     font-family: 'SedgwickAve', sans-serif;
     color: white;
 }
 
-main .tourist .container .osnova .text-right .tyxt .bykvi{
+main .tourist .container .osnova .text-right .tyxt .bykvi {
     font-size: 40px;
     font-family: 'Merriweather', sans-serif;
     color: white;
 }
 
-main .tourist .container .osnova .text-right .tyxt .bykvi span{
+main .tourist .container .osnova .text-right .tyxt .bykvi span {
     font-size: 28px;
     font-family: 'SedgwickAve', sans-serif;
     color: #969696;
 }
 
-main .tourist .container button{
+main .tourist .container button {
     background-color: #F87932;
     padding: 16px 24px 16px 24px;
     width: 213px;
@@ -649,41 +729,41 @@ main .tourist .container button{
     transform: translate(230%);
 }
 
-main .forma{
+main .forma {
     margin-top: 100px;
 }
 
-main .forma .container .text{
+main .forma .container .text {
     text-align: center;
 }
 
-main .forma .container .text h2{
+main .forma .container .text h2 {
     font-size: 60px;
     font-family: 'Merriweather', sans-serif;
 }
 
-main .forma .container .text p{
+main .forma .container .text p {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 3px;
 }
 
-main .forma .container .text img{
+main .forma .container .text img {
     margin: 30px;
 }
 
-main .forma .container form label{
+main .forma .container form label {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
 }
 
-main .forma .container form input{
+main .forma .container form input {
     height: 70px;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
-main .forma .container button{
+main .forma .container button {
     background-color: #F87932;
     padding: 16px 24px 16px 24px;
     width: 400px;
@@ -696,17 +776,17 @@ main .forma .container button{
     transform: translate(120%);
 }
 
-.mb-3{
+.mb-3 {
     margin-top: 30px;
 }
 
-footer{
+footer {
     margin-top: 100px;
     background-color: #151C21;
     padding-top: 80px;
 }
 
-footer .container .top{
+footer .container .top {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -714,7 +794,7 @@ footer .container .top{
     border-block-width: 50%;
 }
 
-footer .container .top .text{
+footer .container .top .text {
     height: 100%;
     width: 20%;
     margin-top: 0;
@@ -724,20 +804,20 @@ footer .container .top .text{
     padding-bottom: 100px;
 }
 
-footer .container p{
+footer .container p {
     font-size: 16px;
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
-footer .container .top .text span{
+footer .container .top .text span {
     font-size: 20px;
 }
 
-footer .container .bottom{
+footer .container .bottom {
     text-align: center;
 }
 
-footer .container .bottom .copy{
+footer .container .bottom .copy {
     margin-top: 80px;
 }
