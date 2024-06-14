@@ -19,6 +19,9 @@ a {
     margin: 0 auto;
 }
 
+.burger {
+    display: none;
+}
 
 
 .animation-button-orange {
@@ -841,16 +844,16 @@ footer .container .bottom .copy {
     main .adventure .container .rombss .romb-2 {
         width: 300px;
         height: 300px;
-        top: -220px;
-        right: 50px;
+        top: -740px;
+        right: -380px;
         z-index: 2;
     }
 
     main .adventure .container .rombss .romb-1 {
         width: 200px;
         height: 200px;
-        top: 30px;
-        right: 120px;
+        top: -479px;
+        right: -280px;
         z-index: 3;
     }
 
@@ -860,6 +863,12 @@ footer .container .bottom .copy {
 
     main .adventure .container .rombss .romb-2 img {
         top: -200px;
+    }
+
+    main .adventure .container .rombss .doroga {
+        position: relative;
+        top: -120px;
+        left: -646px;
     }
 
     main .blog .container .setka .grid-container {
@@ -949,6 +958,24 @@ footer .container .bottom .copy {
         width: 1140px;
     }
 
+    main .adventure .container .rombss .doroga {
+        left: -292px;
+    }
+
+    main .adventure .container .rombss .romb-2 {
+        right: -535px;
+    }
+
+    main .adventure .container .rombss .romb-1 {
+        top: -357px;
+        right: -598px;
+    }
+
+    main .adventure .container .rombss {
+        position: relative;
+        right: 300px;
+    }
+
     header .traveling .container .rombs .romb-slider {
         width: 300px !important;
         height: 300px !important;
@@ -989,29 +1016,29 @@ footer .container .bottom .copy {
         top: 1915px;
     }
 
-    main .rombiks .container .romb{
+    main .rombiks .container .romb {
         width: 150px;
         height: 150px;
     }
 
-    main .rombiks .container .romb .rombik{
+    main .rombiks .container .romb .rombik {
         width: 50px;
         height: 50px;
     }
 
-    main .rombiks .container .romb .travelers{
+    main .rombiks .container .romb .travelers {
         font-size: 22px;
     }
 
-    main .rombiks .container .romb .rombik p{
+    main .rombiks .container .romb .rombik p {
         font-size: 14px;
     }
 
-    main .blog .container .setka .item3{
+    main .blog .container .setka .item3 {
         background-position: 0px;
     }
 
-    main .tourist .container .text p{
+    main .tourist .container .text p {
         font-size: 14px;
     }
 
@@ -1019,11 +1046,11 @@ footer .container .bottom .copy {
         margin-left: 10px !important;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .bykvi{
+    main .tourist .container .osnova .text-right .tyxt .bykvi {
         font-size: 24px;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .number{
+    main .tourist .container .osnova .text-right .tyxt .number {
         font-size: 60px;
     }
 }
@@ -1031,6 +1058,53 @@ footer .container .bottom .copy {
 @media (max-width: 992px) {
     .container {
         width: 960px;
+    }
+
+    header .navigation .container {
+        display: none;
+    }
+
+    .container-fluid {
+        background-color: none;
+    }
+
+    header .navigation .burger {
+        display: block;
+    }
+
+    .navbar-toggler {
+        background-size: cover !important;
+        border: transparent !important;
+        justify-self: end;
+    }
+
+    .navbar-toggler img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-fluid {
+        justify-content: end !important;
+    }
+
+    .btn-close {
+        background-size: cover !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: relative;
+        right: 70px;
+        top: 50px;
+        fill: #F87932;
+        --bs-btn-close-opacity: 1 !important;
+        --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F87932'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e !important) !important;
+    }
+
+    .burger a{
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        text-decoration: underline;
+        color: #F87932;
+        letter-spacing: 5px;
     }
 }
 
