@@ -376,6 +376,7 @@ main .adventure .container .textt button {
     background-color: #ffffff;
     border: 2px solid black;
     margin-top: 180px;
+    z-index: 2;
 }
 
 main .adventure .container .rombss .doroga {
@@ -385,10 +386,17 @@ main .adventure .container .rombss .doroga {
 }
 
 main .travel {
-    background-image: url(../img/3\ block.png);
+    background-image: url('https://otkritkis.com/wp-content/uploads/2022/07/gu69o.gif');
     margin-top: 100px;
     height: 1110px;
     background-size: cover;
+}
+
+main .travel img{
+    z-index: 1;
+    position: absolute;
+    top: 1600px;
+    left: 0;
 }
 
 main .travel h2 {
@@ -569,6 +577,7 @@ main .blog .container .setka .item .panel p {
 
 main .blog .container .setka .item .panel img {
     width: 80px;
+    cursor: pointer;
 }
 
 main .blog .container .setka .item2 {
@@ -791,7 +800,6 @@ footer .container .top {
     justify-content: space-around;
     align-items: baseline;
     border-bottom: 3px solid #4d4d4d;
-    border-block-width: 50%;
 }
 
 footer .container .top .text {
@@ -820,4 +828,39 @@ footer .container .bottom {
 
 footer .container .bottom .copy {
     margin-top: 80px;
+}
+
+
+
+
+/* АДАПТИВ */
+
+@media (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  98%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
 }
