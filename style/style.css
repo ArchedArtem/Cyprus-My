@@ -1469,6 +1469,133 @@ footer .container .bottom .copy {
     .container {
         width: 98%;
     }
+
+    .btn-close{
+        top: 10px;
+        right: -170px;
+    }
+
+    main .adventure .container .textt {
+        left: 75px;
+        margin-top: 0px;
+    }
+
+    main .adventure .container .textt .relax{
+        font-size: 18px;
+    }
+
+    main .adventure .container .textt .weather{
+        font-size: 40px;
+    }
+
+    main .adventure .container .textt .welcome{
+        font-size: 14px;
+    }
+
+    main .adventure .container .rombss .doroga-mobile{
+        width: 470px;
+        left: 0;
+        top: -145px;
+    }
+
+    main .adventure .container .textt button {
+        top: -5px;
+        left: -100px;
+    }
+
+    main .adventure .container .rombss .romb-1 {
+        top: 312px;
+        right: 100px;
+        border: none;
+    }
+
+    main .adventure .container .rombss .romb-2 img {
+        top: -150px;
+        left: -90px;
+    }
+
+    main .adventure .container .rombss .romb-2 {
+        top: 279px;
+        right: -334px;
+    }
+
+    .adventure{
+        height: 1200px !important;
+    }
+
+    main .travel img {
+        top: 2276px;
+    }
+
+    main .travel h2 {
+        font-size: 35px !important;
+    }
+
+    main .travel p{
+        font-size: 18px !important;
+    }
+
+    main .rombiks .container .romb {
+        width: 120px;
+        height: 120px;
+    }
+
+    main .rombiks .container .romb .rombik {
+        width: 40px;
+        height: 40px;
+    }
+
+    main .rombiks .container .romb .rombik p {
+        font-size: 10px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    main .rombiks .container .romb .travelers {
+        font-size: 14px;
+    }
+
+    main .rombiks .container .romb:nth-child(1) {
+        top: -250px;
+        left: 169px;
+    }
+
+    main .blog .container .text h2{
+        font-size: 44px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .bykvi span {
+        font-size: 20px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .number{
+        width: 40px;
+        font-size: 35px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .bykvi {
+        font-size: 18px;
+    }
+
+    main .tourist .container button {
+        background-color: #F87932;
+        padding: 8px 24px 16px 24px;
+        width: 164px;
+        height: 62px;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        letter-spacing: 3px;
+        margin-top: 70px;
+    }
+
+    main .forma .container .text h2{
+        font-size: 44px;
+    }
+
+    footer .container p {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 480px) {
