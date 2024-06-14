@@ -63,24 +63,24 @@ a {
     overflow: hidden;
 }
 
-.animation-button-white::before{
+.animation-button-white::before {
     content: "";
     position: absolute;
     top: 0;
     left: 100%;
     width: 100%;
     height: 100%;
-    background-color:#F87932;
+    background-color: #F87932;
     transition: left 0.5s;
 }
 
-.animation-button-white:hover::before{
+.animation-button-white:hover::before {
     left: 0;
     color: white;
     z-index: 1;
 }
 
-.animation-button-white span{
+.animation-button-white span {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -89,7 +89,7 @@ a {
     padding-top: 15px;
 }
 
-.animation-button-white span:hover{
+.animation-button-white span:hover {
     color: white;
     position: absolute;
     top: 0;
@@ -393,7 +393,7 @@ main .travel {
     overflow: hidden;
 }
 
-main .travel img{
+main .travel img {
     z-index: 1;
     position: absolute;
     top: 1800px;
@@ -780,7 +780,7 @@ main .forma .container button {
     color: white;
     letter-spacing: 3px;
     margin-top: 70px;
-    
+
 }
 
 .mb-3 {
@@ -834,11 +834,11 @@ footer .container .bottom .copy {
 /* АДАПТИВ */
 
 @media (max-width: 1500px) {
-    .container{
+    .container {
         width: 1440px;
     }
 
-    main .adventure .container .rombss .romb-2{
+    main .adventure .container .rombss .romb-2 {
         width: 300px;
         height: 300px;
         top: -220px;
@@ -846,7 +846,7 @@ footer .container .bottom .copy {
         z-index: 2;
     }
 
-    main .adventure .container .rombss .romb-1{
+    main .adventure .container .rombss .romb-1 {
         width: 200px;
         height: 200px;
         top: 30px;
@@ -854,122 +854,200 @@ footer .container .bottom .copy {
         z-index: 3;
     }
 
-    main .adventure .container .rombss .romb-1 img{
+    main .adventure .container .rombss .romb-1 img {
         top: -50px;
     }
 
-    main .adventure .container .rombss .romb-2 img{
+    main .adventure .container .rombss .romb-2 img {
         top: -200px;
     }
 
-    main .blog .container .setka .grid-container{
+    main .blog .container .setka .grid-container {
         width: 100%;
         grid-template-columns: 22% 22% 22% 22%;
     }
 
-    main .blog .container .setka .item1{
+    main .blog .container .setka .item1 {
         width: 100%;
     }
 
-    main .blog .container .setka .item2{
+    main .blog .container .setka .item2 {
         width: 100%;
     }
 
-    main .blog .container .setka .item3{
+    main .blog .container .setka .item3 {
         width: 100%;
     }
 
-    main .blog .container .setka .item4{
+    main .blog .container .setka .item4 {
         width: 100%;
     }
 
-    main .blog .container .setka .item5{
+    main .blog .container .setka .item5 {
         width: 100%;
     }
 
-    main .blog .container .setka .item6{
+    main .blog .container .setka .item6 {
         width: 100%;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .number{
+    main .tourist .container .osnova .text-right .tyxt .number {
         width: 25%;
     }
 
-    main .tourist .container .osnova .text-right .tyxt{
+    main .tourist .container .osnova .text-right .tyxt {
         margin-top: 10px;
     }
 
-    main .tourist .container .osnova .text-left p{
+    main .tourist .container .osnova .text-left p {
         margin-left: 120px !important;
     }
 
-    header .traveling .container .rombs .romb-1{
+    header .traveling .container .rombs .romb-1 {
         width: 200px;
         height: 200px;
     }
 
-    header .traveling .container .rombs .romb-2{
+    header .traveling .container .rombs .romb-2 {
         width: 90px;
         height: 90px;
     }
 
-    header .traveling .container .rombs .romb-3{
+    header .traveling .container .rombs .romb-3 {
         width: 210px;
         height: 210px;
         top: -240px;
         left: 150px;
     }
 
-    header .traveling .container .rombs .romb-4{
+    header .traveling .container .rombs .romb-4 {
         top: -240px;
     }
 
-    header .traveling .container .rombs .romb-5{
+    header .traveling .container .rombs .romb-5 {
         width: 200px;
         height: 200px;
         top: -510px;
     }
 
-    header .traveling .container .rombs .romb-1 img{
+    header .traveling .container .rombs .romb-1 img {
         top: -50px;
         left: 0;
     }
 
-    header .traveling .container .rombs .romb-3 img{
+    header .traveling .container .rombs .romb-3 img {
         top: 0;
     }
 
-    main .travel img{
+    main .travel img {
         top: 1880px;
     }
 }
 
 @media (max-width: 1200px) {
-    .container{
+    .container {
         width: 1140px;
+    }
+
+    header .traveling .container .rombs .romb-slider {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    header .traveling .container .rombs .romb-1 {
+        top: -290px;
+        left: 70px;
+    }
+
+    header .traveling .container .rombs .romb-5 {
+        top: -550px;
+        left: -350px;
+    }
+
+    header .traveling .container .rombs .romb-4 {
+        top: -230px;
+        left: -150px;
+    }
+
+    header .traveling .container .rombs .romb-3 {
+        top: -150px;
+        left: 30px;
+    }
+
+    header .traveling .container .rombs .romb-2 {
+        top: -200px;
+        left: 190px;
+        width: 110px;
+        height: 110px;
+    }
+
+    header .navigation .container .button {
+        z-index: 2;
+    }
+
+    main .travel img {
+        top: 1915px;
+    }
+
+    main .rombiks .container .romb{
+        width: 150px;
+        height: 150px;
+    }
+
+    main .rombiks .container .romb .rombik{
+        width: 50px;
+        height: 50px;
+    }
+
+    main .rombiks .container .romb .travelers{
+        font-size: 22px;
+    }
+
+    main .rombiks .container .romb .rombik p{
+        font-size: 14px;
+    }
+
+    main .blog .container .setka .item3{
+        background-position: 0px;
+    }
+
+    main .tourist .container .text p{
+        font-size: 14px;
+    }
+
+    main .tourist .container .osnova .text-left p {
+        margin-left: 10px !important;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .bykvi{
+        font-size: 24px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .number{
+        font-size: 60px;
     }
 }
 
 @media (max-width: 992px) {
-    .container{
+    .container {
         width: 960px;
     }
 }
 
 @media (max-width: 768px) {
-    .container{
-        width:  98%;
+    .container {
+        width: 98%;
     }
 }
 
 @media (max-width: 576px) {
-    .container{
-        width:  98%;
+    .container {
+        width: 98%;
     }
 }
 
 @media (max-width: 480px) {
-    .container{
-        width:  98%;
+    .container {
+        width: 98%;
     }
 }
