@@ -1219,114 +1219,114 @@ footer .container .bottom .copy {
         top: 2568px;
     }
 
-    main .travel{
+    main .travel {
         background-image: url(../img/bg\ travel\ mobile.jfif);
     }
 
-    main .travel .container .but{
+    main .travel .container .but {
         display: none;
     }
 
-    main .rombiks .container .romb:nth-child(1){
+    main .rombiks .container .romb:nth-child(1) {
         top: -250px;
         left: 270px;
     }
 
-    main .rombiks .container .romb:nth-child(2){
+    main .rombiks .container .romb:nth-child(2) {
         top: -130px;
         left: -30px;
     }
 
-    main .rombiks .container .romb:nth-child(3){
+    main .rombiks .container .romb:nth-child(3) {
         top: 0px;
         left: -90px;
     }
 
-    main .rombiks .container .romb:nth-child(4){
+    main .rombiks .container .romb:nth-child(4) {
         top: -130px;
         left: -150px;
     }
 
-    main .blog .container .setka .grid-container{
+    main .blog .container .setka .grid-container {
         grid-template-columns: 45% 45%;
         grid-template-rows: 22% 22% 22% 22%;
     }
 
-    main .blog .container .setka .item1{
+    main .blog .container .setka .item1 {
         grid-column: 2;
         grid-row: 1 / span 2;
     }
 
-    main .blog .container .setka .item4{
+    main .blog .container .setka .item4 {
         grid-row: 2;
         grid-column: 1;
     }
 
-    main .blog .container .setka .item3{
+    main .blog .container .setka .item3 {
         grid-row: 4;
     }
 
-    main .blog .container .setka .item5{
+    main .blog .container .setka .item5 {
         grid-row: 3;
         grid-column: 2;
     }
 
-    main .blog .container .setka .item6{
+    main .blog .container .setka .item6 {
         grid-row: 3;
         grid-column: 1;
     }
 
-    main .blog .container .setka .item2{
+    main .blog .container .setka .item2 {
         grid-row: 1;
         grid-column: 1;
     }
 
-    main .blog .container .setka .grid-container{
+    main .blog .container .setka .grid-container {
         gap: 30px;
     }
 
-    main .tourist .container .osnova{
+    main .tourist .container .osnova {
         flex-direction: column;
         align-items: center;
     }
 
-    
 
-    main .tourist .container .osnova .text-left p{
+
+    main .tourist .container .osnova .text-left p {
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    main .tourist .container .osnova .text-right .tyxt{
+    main .tourist .container .osnova .text-right .tyxt {
         margin-left: 0;
     }
 
-    main .tourist .container .osnova .text-right{
+    main .tourist .container .osnova .text-right {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    main .tourist .container .osnova .text-right .tyxt{
+    main .tourist .container .osnova .text-right .tyxt {
         justify-content: center;
     }
 
-    main .tourist .container .osnova .text-right .tyxt{
+    main .tourist .container .osnova .text-right .tyxt {
         width: 70%;
     }
 
-    header{
+    header {
         overflow: hidden;
     }
 
-    main .tourist .container .text p{
+    main .tourist .container .text p {
         font-size: 1.5vw;
         width: 95%;
     }
 
-    main .tourist .container .text h2{
+    main .tourist .container .text h2 {
         font-size: 50px;
     }
 }
@@ -1336,7 +1336,7 @@ footer .container .bottom .copy {
         width: 98%;
     }
 
-    header .traveling .container .text p{
+    header .traveling .container .text p {
         font-size: 45px;
     }
 
@@ -1370,7 +1370,7 @@ footer .container .bottom .copy {
         margin-top: -24px;
     }
 
-    main .adventure .container .textt .welcome{
+    main .adventure .container .textt .welcome {
         margin-top: 0 !important;
     }
 
@@ -1389,11 +1389,11 @@ footer .container .bottom .copy {
         right: -226px;
     }
 
-    main .adventure{
+    main .adventure {
         margin-top: 0 !important;
     }
 
-    main .travel{
+    main .travel {
         margin-top: 0 !important;
         height: 860px;
     }
@@ -1402,11 +1402,11 @@ footer .container .bottom .copy {
         top: 2413px;
     }
 
-    main .travel h2{
+    main .travel h2 {
         font-size: 40px !important;
     }
 
-    main .rombiks .container .romb{
+    main .rombiks .container .romb {
         width: 130px;
         height: 130px;
     }
@@ -1440,7 +1440,7 @@ footer .container .bottom .copy {
         font-size: 50px;
     }
 
-    main .tourist .container .text h2{
+    main .tourist .container .text h2 {
         text-align: center;
     }
 
@@ -1448,11 +1448,11 @@ footer .container .bottom .copy {
         width: 100%;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .bykvi{
+    main .tourist .container .osnova .text-right .tyxt .bykvi {
         font-size: 20px;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .bykvi span{
+    main .tourist .container .osnova .text-right .tyxt .bykvi span {
         font-size: 24px;
     }
 
@@ -1460,7 +1460,7 @@ footer .container .bottom .copy {
         font-size: 40px;
     }
 
-    footer .container p{
+    footer .container p {
         font-size: 14px;
     }
 }
@@ -1470,7 +1470,7 @@ footer .container .bottom .copy {
         width: 98%;
     }
 
-    .btn-close{
+    .btn-close {
         top: 10px;
         right: -170px;
     }
@@ -1480,19 +1480,19 @@ footer .container .bottom .copy {
         margin-top: 0px;
     }
 
-    main .adventure .container .textt .relax{
+    main .adventure .container .textt .relax {
         font-size: 18px;
     }
 
-    main .adventure .container .textt .weather{
+    main .adventure .container .textt .weather {
         font-size: 40px;
     }
 
-    main .adventure .container .textt .welcome{
+    main .adventure .container .textt .welcome {
         font-size: 14px;
     }
 
-    main .adventure .container .rombss .doroga-mobile{
+    main .adventure .container .rombss .doroga-mobile {
         width: 470px;
         left: 0;
         top: -145px;
@@ -1519,7 +1519,7 @@ footer .container .bottom .copy {
         right: -334px;
     }
 
-    .adventure{
+    .adventure {
         height: 1200px !important;
     }
 
@@ -1531,7 +1531,7 @@ footer .container .bottom .copy {
         font-size: 35px !important;
     }
 
-    main .travel p{
+    main .travel p {
         font-size: 18px !important;
     }
 
@@ -1560,7 +1560,7 @@ footer .container .bottom .copy {
         left: 169px;
     }
 
-    main .blog .container .text h2{
+    main .blog .container .text h2 {
         font-size: 44px;
     }
 
@@ -1568,7 +1568,7 @@ footer .container .bottom .copy {
         font-size: 20px;
     }
 
-    main .tourist .container .osnova .text-right .tyxt .number{
+    main .tourist .container .osnova .text-right .tyxt .number {
         width: 40px;
         font-size: 35px;
     }
@@ -1589,8 +1589,12 @@ footer .container .bottom .copy {
         margin-top: 70px;
     }
 
-    main .forma .container .text h2{
+    main .forma .container .text h2 {
         font-size: 44px;
+    }
+
+    main .tourist .container .text h2 {
+        font-size: 40px;
     }
 
     footer .container p {
@@ -1602,4 +1606,251 @@ footer .container .bottom .copy {
     .container {
         width: 98%;
     }
+
+    .logo-mobile {
+        height: 150px;
+    }
+
+    header .traveling .container .text p {
+        font-size: 37px;
+    }
+
+    header .traveling .container .text button {
+        background-color: #F87932;
+        padding: 16px 24px 16px 24px;
+        width: 180px;
+        height: 54px;
+        font-size: 14px;
+    }
+
+    header .traveling .container .rombs .romb-slider {
+        width: 150px !important;
+        height: 150px !important;
+        left: -119px;
+        top: 538px;
+    }
+
+    header .traveling .container .rombs .romb-1 {
+        width: 100px;
+        height: 100px;
+        top: 491px;
+        left: 39px;
+    }
+
+    header .traveling .container .rombs .romb-3 {
+        top: 190px;
+        left: 12px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .traveling .container .rombs .romb-5 {
+        width: 110px;
+        height: 110px;
+        top: -135px;
+        left: -117px;
+    }
+
+    header .traveling .container .rombs .romb-4 {
+        left: -222px;
+        top: 73px;
+    }
+
+    header .traveling .container .text {
+        margin-top: -290px;
+    }
+
+    main .adventure .container .rombss .doroga-mobile {
+        width: 290px;
+        left: 74px;
+        top: -140px;
+    }
+
+    main .adventure .container .textt {
+        left: 13px;
+        margin-top: -57px;
+    }
+
+    main .adventure .container .textt .relax {
+        font-size: 13px;
+    }
+
+    main .adventure .container .textt .weather {
+        font-size: 25px;
+    }
+
+    main .adventure .container .textt .welcome {
+        font-size: 8px;
+    }
+
+    main .adventure .container .textt button {
+        width: 120px;
+        height: 44px;
+        font-size: 12px;
+        margin-top: 180px;
+        top: -98px;
+        left: -54px;
+    }
+
+    main .travel img {
+        top: 2297px;
+    }
+
+    main .travel h2 {
+        font-size: 20px !important;
+    }
+
+    main .travel p {
+        font-size: 14px !important;
+    }
+
+    main .blog .container .setka .item .panel p{
+        font-size: 14px;
+    }
+
+    main .blog .container .setka .item .panel img{
+        width: 50px;
+    }
+
+    main .tourist .container {
+        border: 5px solid white;
+        width: 200%;
+        margin-left: -50px;
+    }
+
+    main .tourist .container .text h2 {
+        font-size: 20px;
+    }
+
+    main .tourist .container .text img{
+        width: 80px;
+    }
+
+    main .tourist .container .osnova .text-left p{
+        font-size: 20px !important;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .bykvi {
+        font-size: 10px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .bykvi span {
+        font-size: 12px;
+    }
+
+    main .tourist .container .osnova .text-right .tyxt .number{
+        font-size: 17px !important;
+    }
+
+    main .tourist .container button {
+        background-color: #F87932;
+        padding: 8px 24px 16px 24px;
+        width: 120px;
+        height: 32px;
+        font-size: 8px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        letter-spacing: 3px;
+        margin-top: 70px;
+        margin-left: -2px;
+    }
+
+    main .tourist{
+        height: 1272px !important;
+    }
+
+    main .forma .container button{
+        width: 80%;
+    }
+
+    main .forma .container .text h2 {
+        font-size: 35px;
+    }
+
+    main .forma .container .text p{
+        font-size: 15px;
+    }
+
+    main .forma .container form label {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+
+    main .forma .container form input {
+        height: 70px;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+    }
+
+    footer .container p {
+        font-size: 6px;
+    }
+
+    .adventure {
+        height: 648px !important;
+    }
+
+    main .adventure .container .rombss .romb-1{
+        top: 108px;
+    }
+
+    main .adventure .container .rombss .romb-2{
+        top: -53px;
+    }
+
+    main .travel img {
+        top: 1743px;
+    }
+
+    main .blog .container .text h2 {
+        font-size: 35px;
+    }
+
+    main .blog .container .text p {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    main .blog .container .text .nizhe{
+        font-size: 12px;
+    }
+
+    main .rombiks .container{
+        flex-direction: column;
+    }
+
+    main .rombiks .container .romb {
+        width: 110px;
+        height: 110px;
+    }
+
+    main .rombiks .container .romb:nth-child(1) {
+        top: -248px;
+        left: 90px;
+    }
+
+    main .rombiks .container .romb:nth-child(2) {
+        top: -273px;
+        left: 6px;
+    }
+
+    main .rombiks .container .romb:nth-child(4) {
+        top: -484px;
+        left: 165px;
+    }
+
+    main .rombiks .container .romb:nth-child(3) {
+        top: -280px;
+        left: 83px;
+    }
+
+    main .rombiks .container .romb .travelers {
+        font-size: 12px;
+    }
+
+    main .blog{
+        margin-top: -250px !important;
+    }
+
+
 }
